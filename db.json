@@ -1,8 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "test": [
+      { 
+        "direccion": "Ave. Winton Churchill 1020. Distrito Nacional",
+        "tipo": "Oficina Principal",
+        "calle":"Ave. Winston Churcill",
+        "numero":1020,
+        "provincia": "Distrito Nacional"
+      },
+       { 
+        "direccion": "Ave. 27 de Febrero 1010. Distrito Nacional",
+         "tipo": "Sucursal",
+        "calle":"Ave. 27 de Febrero",
+        "numero":1010,
+         "provincia": "San Pedro de Macoris"
+      },
+      { 
+        "direccion": "Ave. Jhon F Kennedy 1030. Distrito Nacional",
+        "tipo": "Trabajo",
+        "calle" :"Ave. Jhon F Kennedy",
+        "numero" :1030,
+        "provincia": "La Vega"
+      },
+      {  
+        "direccion": "Ave. Churchill 1040. Distrito Nacional",
+        "tipo": "Veraneo",
+        "calle":"Ave. Churchill",
+        "numero":1040,
+        "provincia": "Santiago de los Caballeros"
+      },
+      { 
+        "direccion": "Ave. George Washington. Distrito Nacional",
+        "tipo": "Residencia",
+        "calle":"Ave. George Washington",
+        "numero":1040,
+        "provincia": "Distrito Nacional"
+      }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
